@@ -1,0 +1,440 @@
+html{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16 px;
+    font-weight:400;
+    color:#000;
+    background-color: #f0f0f0;
+    min-width: 340px;
+   overflow-x: hidden;
+}
+/*header*/
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(135, 26, 207);
+    font-weight:800 px ;
+    font-family: cursive;
+}
+.navbar-brand{/*цвет первой колонки Обо мне*/
+  color: rgb(135, 26, 207);  
+ font-weight: 1000;
+}
+.nav-link {/*цвет окошка связаться со мной*/
+color: rgb(135, 26, 207);  
+font-weight: 1000; 
+}
+.navbar-nav > .nav-item{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.aligncenter {/*убрал расстояние между формами*/
+   margin: 0%;
+}
+.dropdown-menu {/*цвет всплывающего окна*/
+    background-color:rgb(135, 26, 207);   
+}
+.dropdown-item{/*цвет всплывающего окна*/
+    color: yellow;
+}
+.container{
+display: flex;
+padding: 20px;
+}
+.line{
+    border-top: #000;
+}
+.phone h2 {
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 20px;
+margin: 200px;
+position: relative;
+}
+
+  form input.error{
+    border-color:red;
+  }
+  .indented input{
+ margin-left: 20px;
+  }
+  .biografia h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+    font-size:50px; 
+    margin: 40px;
+   }
+   .biografia ul{
+   font-size: 30px;
+     padding:25px 25px;
+
+   }
+   .biografia{
+     width: 100%;
+     height: 100%;
+   }
+  .biografia p{
+ text-align:center;
+     margin: 30px;
+     font-size: 40px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+  .friend a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 70px;
+  }
+  .friend h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+  li.dropdown-menu {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .all_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 30px;
+  }
+  .my_vk{
+    padding: 20px;
+    color: blue;
+  }
+  .odnoklassniki{
+    color: orange;
+  }
+  .whatsApp{
+    color: green;
+    padding: 20px;
+  }
+  form button{
+    position:relative;
+    left:30px;
+    top:6px;
+    padding: 10px;
+    height: 60px;
+    line-height: 1;
+   cursor: pointer;
+   font-size: 30px;
+   min-width:40%;
+  }
+  form input{
+    padding: 10px;
+  }
+ 
+  #in_button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.allform{
+  display:block;
+     list-style-type:none;
+    list-style-position:outside;
+}
+body {
+overflow-y: hidden;
+}
+
+.card{
+    display: block;
+    width: 80%;
+    height: 600;
+    margin:0 auto;
+    background-color: #D4E6B3;
+    border: 50px solid #D4E6B3;
+    bottom: 40px;
+    min-width:340px;
+}
+.card-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all_study{
+position: relative;
+bottom: 25px;
+}
+div.feedback{
+background-size: 100%;
+position: relative;
+height: 100%;
+width: 100%;
+padding: 120px;                                                   ;
+}
+.studi_online{
+border-radius: 50%;
+}
+ .foto_one{
+ position: relative;
+  background-size:10% auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 150px;
+  margin: 20px 20%;
+}
+.container_feedback{
+ position: relative;
+text-align: center;
+}
+.first_feedback{
+ margin: 35px; 
+ background-color: rgb(235, 230, 230);
+ height: 850px;
+ width: 300px;
+ border-radius: 20px;
+ box-shadow: 10px 5px 5px black;
+ opacity: 0.9;
+}
+h1.feedname_name1{
+  text-align: center;
+  vertical-align: middle;
+font-size: 150%;
+}
+.foto_one{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  right: 10px; 
+  background-color: rgba(0,0,255,0.5);
+}
+p.feeddback_write_1{
+font-size: 18px;
+margin: 17px;
+}
+.second_feedback{
+  position:relative;
+  left:100px;
+  top:50px;
+ background-color: rgb(235, 230, 230);
+ height: 850px;
+ width: 300px;
+ border-radius: 20px;
+ box-shadow: 10px 5px 5px black;
+ opacity: 0.9;
+}
+.foto_two{
+  align-items: center;
+  justify-content:center;
+  right: 10px;
+  position: relative;
+  background-size:10% auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 147px;
+  margin: 20px 20%;
+  overflow: hidden;
+  background-size: contain;
+
+}
+.feedname_name2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+}
+.feeddback_write_2{
+  font-size: 18px;
+margin: 17px;
+}
+.third_feedback{
+  position:relative;
+  left:200px;
+ background-color: rgb(235, 230, 230);
+ height: 850px;
+ width: 300px;
+ border-radius: 20px;
+ box-shadow: 10px 5px 5px black;
+ opacity: 0.9;
+}
+.foto_three{
+  margin:35px;
+  width: 100%;
+  position: relative;
+  background-size:10% auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 150px;
+  margin: 20px 20%;
+}
+.feedname_name3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+}
+.feeddback_write_3{
+  font-size: 18px;
+margin: 17px;
+}
+#curs_s{
+  font-size: 300%;
+  font-style: italic;
+  color:white;
+  position: absolute;
+ z-index: 2;
+ left:42% ;
+ display: flex;
+ margin: auto;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+}
+#curs_s:hover{
+  transform: scale(1.95);
+color: rgb(92, 238, 92);
+cursor: pointer;
+}
+form input.error{
+  border-color: red;
+}
+#in_name{
+  margin: 20px;
+}
+.writer{
+  margin:40px;
+  text-align: center;
+}
+.card-text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-title{
+  size:500px;
+}
+
+.fotofedd{
+  margin:0 auto;
+}
+.all-feedback{
+  display:flex;
+}
+.card{
+  background-color: none;
+}
+.product-car{
+  box-shadow:0 2px 5px 0 rgba(0,0,0.06) ;
+  transition: all .3s ;
+}
+.product-thumb a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.product-thumb img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.product-ditails{
+  padding: 20px;
+}
+.product-ditails h4{
+  padding: 15px;
+  font-size:30px;
+}
+.product-ditails p{
+  font-size: 20px;
+}
+.img-thumbnail{
+  height:290px ;
+  width: 100%;
+  padding: 5px;
+  object-fit: cover;
+}
+.card-title{
+  font-size: 30px;
+}
+.video{
+  display: flex;
+margin: 0 auto;
+}
+.avatar{
+  position:relative;
+}
+.dima-yur{
+width: 100%;
+height:100%;
+}
+.pir{
+position: absolute;
+  color:#fff;
+  font-size: 80px;
+  top:350px;
+  left:25px;
+}
+@media(max-width:800px){
+  .pir{
+    font-size:30px ;
+    top:130px;
+  }
+}
+.video{
+  width: 100%;
+  height: 100%;
+}
+@media(max-width:800px){
+.friend h1{
+font-size: 30px;
+}
+}
+@media(max-width:800px){
+  .friend a{
+  font-size: 30px;
+  }
+  }
+  @media(max-width:400px){
+    .friend a{
+    font-size:20px;
+    }
+    }
+  @media(max-width:800px){
+    .phone h2{
+    font-size: 30px;
+    }
+    }
+      @media(max-width:500px){
+    input {
+margin:20px;
+display:flex;
+width: 300px;
+margin-left: auto;
+margin-right: auto ;
+left:0;    
+}
+    }
+    .phone{
+    text-align: center;
+    margin: 15px;
+    }
+    @media(max-width:500px){
+      #in_button {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+      }
+         @media(max-width:500px){
+      #curs_s {
+          display: flex;
+left:120px;
+}
+      }
